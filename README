@@ -1,0 +1,14 @@
+WifiMouseServer: Desktop companion app for WifiMouse on Android.
+
+See the website for more info
+https://wifimouse.github.io
+
+Compile: qmake && make
+
+Dependencies
+Linux: qt5-default libgl1-mesa-dev libxtst-dev libx11-dev qtconnectivity5-dev libqt5svg5-dev
+
+Needs to be compiled with Qt MSVC to enable Bluetooth on Windows
+
+Todo:
+-clean up code
